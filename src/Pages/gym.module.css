@@ -1,0 +1,36 @@
+body{
+background-color: black;
+}
+.detailPage{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:90%;
+    margin:auto;
+    text-align: left;
+    color:white;
+}
+
+.detail{
+    
+    border: 1px solid white;
+}
+
+.plan{
+    border: 1px solid white;
+}
+
+.list{
+    width:80%;
+    height:100px;
+    margin:auto;
+    border:2px solid white;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 5px;
+    border-radius:10px;
+    padding-left:10px;
+}
+.links{
+    text-decoration: none;
+}
+

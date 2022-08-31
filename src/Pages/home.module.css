@@ -1,0 +1,346 @@
+
+
+
+.homepage{
+    width:100%;
+    margin:auto;
+    background-color: black;
+    height:99vh;
+    display:grid;
+    grid-template-columns:25% 75%;
+    padding-top:1%;
+    color: white;
+    padding-left:10px;
+    text-decoration: none;
+   
+}
+.filter{
+    color:white;
+    text-align: left;
+}
+.filterh1{
+    font-size:35px
+}
+.filterh2{
+    font-size:25px
+}
+.filter input{
+    font-size: 20px;
+    height:50px;
+    width:90%;
+    outline: rgb(71, 64, 64);
+    background-color:rgb(80, 72, 72);
+    outline:2px solid white
+}
+.filter select {
+    background-color:rgb(109, 104, 104);
+    height:40px;
+    width:60%;
+    border:2px solid rgb(89, 69, 69);
+    border-radius: 6px; 
+    font-size: 20px;
+}
+select option{
+    color:white;
+    background-color:rgb(84, 81, 81);
+    font-size: 20px;
+    margin-top:10%
+
+}
+.data{
+    border:2px solid white;
+}
+
+.price{
+display:flex;
+width:45%;
+margin-bottom:5%;
+}
+.price input{
+margin-right: 15px;
+width:70px
+}
+
+.boxcontainer{
+    width:90%;
+    height:300px;
+    margin: auto;
+    background-color:#151515;
+    border-radius:10px;
+    margin-bottom:3%;
+    padding-top: 3%;
+}
+.main{
+    display: grid;
+    grid-template-columns:50% 30% 20%;
+}
+.box{
+    height:100%;
+    overflow:auto
+}
+.btn1{
+    background-color:#920909;
+    width: 150px;
+    height: 50px;
+}
+@media (max-width:1100px) and (min-width:800px){
+    .homepage{
+        width:100%;
+        margin:auto;
+        background-color: black;
+        height:99vh;
+        display:grid;
+        grid-template-columns:25% 75%;
+        padding-top:1%;
+        color: white;
+        padding-left:10px;
+        text-decoration: none;
+       
+    }
+    .filter{
+        color:white;
+        text-align: left;
+    }
+    .filterh1{
+        font-size:35px
+    }
+    .filterh2{
+        font-size:25px
+    }
+    .filter input{
+        font-size: 20px;
+        height:50px;
+        width:90%;
+        outline: rgb(71, 64, 64);
+        background-color:rgb(80, 72, 72);
+        outline:2px solid white
+    }
+    .filter select {
+        background-color:rgb(109, 104, 104);
+        height:40px;
+        width:60%;
+        border:2px solid rgb(89, 69, 69);
+        border-radius: 6px; 
+        font-size: 20px;
+    }
+    select option{
+        color:white;
+        background-color:rgb(84, 81, 81);
+        font-size: 20px;
+        margin-top:10%
+    
+    }
+    .data{
+        border:2px solid white;
+    }
+    
+    .price{
+    display:flex;
+    width:45%;
+    margin-bottom:5%;
+    }
+    .price input{
+    margin-right: 15px;
+    width:70px
+    }
+    
+    .boxcontainer{
+        width:90%;
+        height:300px;
+        margin: auto;
+        background-color:#151515;
+        border-radius:10px;
+        margin-bottom:3%;
+        padding-top: 3%;
+    }
+    .main{
+        display: grid;
+        grid-template-columns:50% 30% 20%;
+    }
+    .box{
+        height:100%;
+        overflow:auto
+    }
+    .btn1{
+        background-color:#920909;
+        width: 150px;
+        height: 50px;
+        position: relative;
+        margin-left:-50%;
+    }
+}
+@media (max-width:857px) and (min-width:500px){
+    .homepage{
+        width:100%;
+        margin:auto;
+        background-color: black;
+        height:99vh;
+        display:grid;
+        grid-template-columns:25% 75%;
+        padding-top:1%;
+        color: white;
+        padding-left:10px;
+        text-decoration: none;
+       
+    }
+    .filter{
+        color:white;
+        text-align: left;
+    }
+    .filterh1{
+        font-size:25px
+    }
+    .filterh2{
+        font-size:20px
+    }
+    .filter input{
+        font-size: 20px;
+        height:50px;
+        width:90%;
+        outline: rgb(71, 64, 64);
+        background-color:rgb(80, 72, 72);
+        outline:2px solid white
+    }
+    .filter select {
+        background-color:rgb(109, 104, 104);
+        height:40px;
+        width:60%;
+        border:2px solid rgb(89, 69, 69);
+        border-radius: 6px; 
+        font-size: 20px;
+    }
+    select option{
+        color:white;
+        background-color:rgb(84, 81, 81);
+        font-size: 20px;
+        margin-top:10%
+    
+    }
+    .data{
+        border:2px solid white;
+    }
+    
+    .price{
+    display:flex;
+    width:45%;
+    margin-bottom:5%;
+    }
+    .price input{
+    margin-right: 15px;
+    width:70px
+    }
+    
+    .boxcontainer{
+        width:70%;
+        height:300px;
+        margin: auto;
+        background-color:#151515;
+        border-radius:10px;
+        margin-bottom:3%;
+        padding-top: 3%;
+    }
+    .main{
+        position: relative;
+        display: grid;
+        grid-template-columns:50% 30% 20%;
+    }
+    .box{
+        height:100%;
+        overflow:auto
+    }
+    .btn1{
+        background-color:#920909;
+        width: 150px;
+        height: 50px;
+        margin-left:-150%;
+        margin-bottom: 10%;
+    }
+}
+@media (max-width:600px) and (min-width:300px){
+    .homepage{
+        width:100%;
+        margin:auto;
+        background-color: black;
+        height:99vh;
+        display:block;
+        padding-top:1%;
+        color: white;
+        padding-left:10px;
+        text-decoration: none;
+       
+    }
+    .filter{
+        color:white;
+        text-align: left;
+    }
+    .filterh1{
+        font-size:25px
+    }
+    .filterh2{
+        font-size:20px
+    }
+    .filter input{
+        font-size: 20px;
+        height:50px;
+        width:90%;
+        outline: rgb(71, 64, 64);
+        background-color:rgb(80, 72, 72);
+        outline:2px solid white
+    }
+    .filter select {
+        background-color:rgb(109, 104, 104);
+        height:40px;
+        width:60%;
+        border:2px solid rgb(89, 69, 69);
+        border-radius: 6px; 
+        font-size: 20px;
+    }
+    select option{
+        color:white;
+        background-color:rgb(84, 81, 81);
+        font-size: 20px;
+        margin-top:10%;
+        margin-bottom: 10%;
+    
+    }
+    .data{
+        border:2px solid white;
+    }
+    
+    .price{
+    display:flex;
+    width:45%;
+    margin-bottom:5%;
+    }
+    .price input{
+    margin-right: 15px;
+    width:70px
+    }
+    
+    .boxcontainer{
+        width:100%;
+        height:300px;
+        margin: auto;
+        background-color:#151515;
+        border-radius:10px;
+        margin-bottom:3%;
+        
+        margin-top: 20%;
+    }
+    .main{
+        position: relative;
+        display: grid;
+        grid-template-columns:50% 30% 20%;
+    }
+    .box{
+        height:100%;
+        overflow:auto
+    }
+    .btn1{
+        background-color:#920909;
+        width: 150px;
+        height: 50px;
+        margin-left:-150%;
+        margin-bottom: 10%;
+    }
+}
